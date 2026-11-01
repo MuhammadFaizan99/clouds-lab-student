@@ -1,0 +1,30 @@
+{
+  "phase": "2",
+  "environment": {
+    "colab": true
+  },
+  "attention": {
+    "naive_ms": 236.7,
+    "vectorized_ms": 0.902,
+    "speedup": 262.42
+  },
+  "threads": {
+    "1": 2458.759,
+    "2": 2158.384,
+    "4": 1985.086,
+    "8": 2536.098
+  },
+  "devices": {
+    "cpu_ms": 447549.8,
+    "gpu_ms": 12712.8
+  },
+  "training": {
+    "steps": 2000,
+    "final_loss": 1.4808,
+    "param_count": 4935680
+  },
+  "sample": "\nInso, practiontes to dreath them.\n\nDUCHESS:\nI stand thee, nequors: talk to a is.\n\nBUCKINGHAM:\nThey feain, Here firstist to thb-command;\nO I would but sheeh, and we cand our his hand\nTo shumbst not sti",
+  "model": {
+    "gcs_url": "https://storage.googleapis.com/eurecomgpt-511420-eurecomgpt/model.safetensors"
+  }
+}
